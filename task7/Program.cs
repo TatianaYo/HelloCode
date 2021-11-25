@@ -7,6 +7,7 @@ Console.WriteLine(b);
 
 while(a < b-1)
 {
-    Console.WriteLine(a+1);
+    Console.Write(" ");
+    Console.Write(a+1);
     a++;
 }
