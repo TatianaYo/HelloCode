@@ -7,7 +7,8 @@ while(a < b)
 {
     if(a % 2 == 0)
     {
-        Console.WriteLine(a);
+        Console.Write(" ");
+        Console.Write(a);
     }
     a++;
 }
