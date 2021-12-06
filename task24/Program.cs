@@ -5,6 +5,6 @@ int n = 20;
 while(a <= n)
 {
     double cube = Math.Pow(a, 3);
-    Console.WriteLine($"{a} * {a} = " + cube);
+    Console.WriteLine($"{a} * {a} * {a} = " + cube);
     a++;
 }

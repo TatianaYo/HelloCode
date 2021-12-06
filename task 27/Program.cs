@@ -1,6 +1,6 @@
 ﻿//Определить количество цифр в числе
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+Int64 num = Int64.Parse(Console.ReadLine());
 int count = 0;
 
 while(num > 0)
