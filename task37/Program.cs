@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]
 
 void FillArray(int[] collection)
 {
@@ -21,4 +21,4 @@ for(int i = 0; i < array.Length; i++)
         count = count + 1;
     }
 }
-Console.WriteLine(count);
+Console.WriteLine("Количество элементов из отрезка [10,99] = " + count);

@@ -1,4 +1,4 @@
-﻿//
+﻿//Написать программу замену элементов массива на противоположные
 void FillArray(int[] collection)
 {
     int length = collection.Length;
@@ -24,6 +24,7 @@ void PrintArray(int[] col)
 
 int[] array = new int[10];
 FillArray(array);
+PrintArray(array);
 for(int i = 0; i < array.Length; i++)
 {
     array[i] = array[i] * (-1);
