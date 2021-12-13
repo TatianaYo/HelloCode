@@ -1,14 +1,12 @@
 ﻿//Определить сколько чисел больше 0 введено с клавиатуры
 int k = 10;
 int count = 0;
-for(int i = 0; i < k; i++)
+Console.WriteLine("Введите 10 чисел");
+for(int i = 1; i <= k; i++)
 {
-    Console.WriteLine("Введите число: ");
+    Console.Write($"{i} число: ");
     int n = int.Parse(Console.ReadLine());
-    if(n > 0)
-    {
-        count = count + 1;
-    }
+    if(n > 0) count = count + 1;
 }
 Console.WriteLine("Количество чисел больше 0 = " + count);
 
